@@ -10,4 +10,6 @@ cells.forEach(cell => cell.addEventListener('click', updateCell))
 
 function updateCell(clickedCellEven){
     const clickedCell = clickedCellEven.target
+    console.log(clickedCell)
+    return clickedCell.innerHTML = 'X'
 }
