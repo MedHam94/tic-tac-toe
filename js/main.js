@@ -18,19 +18,6 @@ function updateCell(clickedCellEven){
     }else if(!xTurn && clickedCell.innerHTML === ''){
         clickedCell.innerHTML = 'O'
         xTurn = true
-        
-    }
-    
+    } 
 }
 
-// let turn = 'X'
-// function game(id){
-//     let element = document.getElementById(id)
-//     if(turn === 'X'  && element.innerHTML == ''){
-//         element.innerHTML = 'X' <div>hello World </div>
-//         turn  = 'O'
-//     }else if(turn === 'O' && element.innerHTML == ''){
-//         element.innerHTML = 'O'
-//         turn = 'X'
-//     }
-// }
